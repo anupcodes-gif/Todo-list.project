@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #c4dfdf;
+  font-family: 'Comfortaa', cursive;
+}
+
+.main-btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.4rem 30px;
+  height: 55px;
+  cursor: pointer;
+  background-color: #f8f6f4;
+  color: #545b77;
+  font-weight: 600;
+}
+
+.input-field {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  height: 55px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  background-color: #f8f6f4;
+  color: #374259;
+}

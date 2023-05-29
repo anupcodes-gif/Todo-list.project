@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 70vw;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 2rem auto;
+}
+
+.Title {
+  text-align: center;
+  color: #374259;
+  padding: 1rem;
+}
+
+.input-container {
+  background-color: #d2e9e9;
+  border-radius: 0.6rem;
+  padding: 10px;
+}
+
+.Add-task {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+}
+
+.add-btn:hover {
+  background-color: #f8f6f4d9;
+}
+.add-btn:active {
+  background-color: #e6e5e3d9;
+}
+.list {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 30px;
+  background-color: #d2e9e9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list.hide {
+  display: none;
+}
+
+.list h2 {
+  margin-bottom: 30px;
+  color: #374259;
+}

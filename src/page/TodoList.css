@@ -1,0 +1,32 @@
+.list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  background-color: transparent;
+  height: fit-content;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #374259;
+}
+
+.task-item-text {
+  flex: 1;
+  height: 50px;
+}
+.list-item h2 {
+  line-height: 50px;
+  font-size: 18px;
+  color: #374259;
+}
+
+.list-item-btn {
+  display: flex;
+  gap: 15px;
+}
+
+.delete-btn {
+  background-color: #f47a00;
+  height: 50px;
+  color: white;
+}
